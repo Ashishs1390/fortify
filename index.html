@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html data-ng-app="starter">
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="libs/jquery.min.js"></script>
+	<script type="text/javascript" src="libs/angular.min.js"></script>
+	<script type="text/javascript" src="libs/ui-router/angular-ui-router.js"></script>
+	<script type="text/javascript" src="controllers/app.js"></script>
+	<script type="text/javascript" src="controllers/controller.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+
+<div class="Wrapper">
+	<div ui-view="header"></div>
+	<div ui-view="content" class="MainContent"></div>
+	<div ui-view="footer"></div>
+</div>
+</body>
+</html>

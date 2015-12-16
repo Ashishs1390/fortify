@@ -1,0 +1,95 @@
+body {
+	background-color: #ffffff;
+}
+.Wrapper {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.MainHeader {
+    box-shadow: 0px 1px 2px rgba(0,0,0,.1);
+	background-color: #e7e7e7; 
+	border: rgba(0,0,0,0.05) 1px solid; 
+    font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+	position: relative;
+    padding: 40px 20px;
+}
+.MainHeader:after {
+	content: '';
+	display: block;
+	clear: both;
+} 
+
+
+.Logo {
+	position: absolute;
+    top: 28px;
+    left: 45px;
+}
+
+.Menu {
+/*    position: absolute;
+    right: 40px;
+    top: -10px;*/
+    float: right;
+    margin-top: -32px;
+}
+
+.Menu_item {
+	border-right: 1px solid #f4f4f4;
+	list-style-type:none;
+	display: inline-block;
+	margin-left: -4px;
+    padding: 30px 20px;
+}
+
+.Menu_item:first-child {
+	border-left: 1px solid #f4f4f4;
+}
+
+.Menu_item:hover {
+	background-color: #eeeeee;
+}
+
+.Menu_item a{
+	text-decoration: none;
+    color: #1F262D;
+    font-weight: 400;
+}
+
+.MainContent {
+	background: url(../images/wall2.jpg);
+    background-size: 980px 501px;
+    background-repeat: no-repeat;
+	background-color: #fff;
+    margin-top: -20px;
+}
+
+.ContentText {
+	height: 250px;
+    	
+}
+.ContentPos {
+	margin-left: 28%;
+    padding-top: 18%;
+}
+
+.ContentText h1 {
+	font-weight: 500;
+}
+.ContentText p {
+	margin-left: 60px;
+}
+.Greenify {
+	color: #8ab933;
+}
+
+.footer {
+	background-color: #e7e7e7; 	
+}
+
+.footer h3 {
+	padding: 15px;
+    margin-top: 0px;
+    text-align: center;
+}
