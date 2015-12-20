@@ -17,7 +17,8 @@ angular.module("starter",["ui.router","starterControllers"])
             url: '/home',
             views : {
                 'content@':{
-                    templateUrl: 'partials/home.html'
+                    templateUrl: 'partials/home.html',
+                    controller:'HomeCtrl'
                 }
             }   
         })

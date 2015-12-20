@@ -58,30 +58,22 @@ body {
 }
 
 .MainContent {
-	background: url(../images/wall2.jpg);
+	/*background: url(../images/wall2.jpg);
     background-size: 980px 501px;
-    background-repeat: no-repeat;
-	background-color: #fff;
+    background-repeat: no-repeat;*/
+	background-color: #eeeeee;
     margin-top: -20px;
 }
 
 .ContentText {
-	height: 250px;
+
     	
 }
-.ContentPos {
-	margin-left: 28%;
-    padding-top: 18%;
+.HomeContentWrapper {
+	width: 50%;
 }
-
-.ContentText h1 {
-	font-weight: 500;
-}
-.ContentText p {
-	margin-left: 60px;
-}
-.Greenify {
-	color: #8ab933;
+.HomeContentWrapper1, .HomeContentWrapper2 {
+	display: none;
 }
 
 .footer {
