@@ -29,7 +29,7 @@ body {
 
 .Logo {
 	position: absolute;
-    top: 28px;
+    top: 5px;
     left: 45px;
 }
 
@@ -64,14 +64,32 @@ body {
 }
 
 .MainContent {
-	/*background: url(../images/wall2.jpg);
-    background-size: 980px 501px;
-    background-repeat: no-repeat;*/
 	background-color: #eeeeee;
     margin-top: -20px;
     padding: 0px 30px;
     padding-top: 100px;
 
+}
+
+.Book {
+    position: relative;
+    left: 170px;
+}
+
+.Book::after {
+    content: '';
+    display: block;
+	clear: both;
+}
+
+.Book_LeftSection {
+	float: left;
+	width: 35%;
+}
+.Book_RightSection {
+	float: left;
+	width: 35%;
+	margin-left: 25px;
 }
 
 .ContentText:after {
@@ -89,6 +107,17 @@ body {
 .buttonSection {
 	text-align: center;
 }
+
+
+
+#div2,#div3{
+    display:none;
+}
+
+
+
+
+
 
 
 .footer {

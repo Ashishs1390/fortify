@@ -27,7 +27,8 @@ angular.module("starter",["ui.router","starterControllers"])
             url: '/pages',
             views : {
                 'content@':{
-                    templateUrl: 'partials/pages.html'
+                    templateUrl: 'partials/pages.html',
+                    controller: 'PageCtrl'
                 }
             }   
         })
